@@ -17,10 +17,10 @@
   ],
   "files": [
     "src",
-    "dist"
+    "dist",
+    "lib"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "nuxt": "^1.0.0-rc11",
     "codecov": "^2.3.0",
