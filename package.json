@@ -10,7 +10,8 @@
   },
   "scripts": {
     "lint": "eslint lib src test",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "prepare": "npm install"
   },
   "eslintIgnore": [
     "*.template.*"
